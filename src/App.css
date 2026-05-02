@@ -1,0 +1,17 @@
+.app-shell {
+  min-height: 100vh;
+  background-color: var(--main-color);
+  color: var(--highlight-color);
+}
+
+.home-page {
+  padding: 2rem 0 3rem;
+}
+
+.home-page section {
+  scroll-margin-top: 7rem;
+}
+
+.home-page section + section {
+  margin-top: 1.5rem;
+}

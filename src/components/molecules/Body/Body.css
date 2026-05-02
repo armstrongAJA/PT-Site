@@ -1,0 +1,29 @@
+.body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+  color: var(--main-text-color, #334155);
+}
+
+.body > div {
+  background-color: var(--secondary-main-color);
+  border-radius: 1rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.body h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--title-text-color, #0f172a);
+}
+
+.body p {
+  margin-top: 0.75rem;
+  color: var(--main-text-color, #334155);
+  line-height: 1.7;
+}
+
+.body strong {
+  color: var(--highlight-text-color, #1d4ed8);
+}

@@ -1,0 +1,21 @@
+{
+  "name": "default",
+  "businessName": "Optimum coaching",
+  "colors": {
+    "mainColor": "#e3f2fd",
+    "secondaryMainColor": "#f5f9ff",
+    "tertiaryMainColor": "#64b5f6",
+    "mainTextColor": "#000000",
+    "highlightTextColor": "#1d4ed8",
+    "titleTextColor": "#1d4ed8",
+    "highlightColor": "#0d47a1",
+    "borderColor": "#90caf9",
+    "borderHighlightColor": "#1976d2",
+    "buttonSelectColor": "#bbdefb"
+  },
+  "logo": {
+    "label": "Logo",
+    "icon": "JS",
+    "image": "./assets/images/Logo_Header.png"
+  }
+}

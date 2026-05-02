@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--secondary-main-color);
+}
+
+.header__inner {
+  width: 100%;
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+
+.header__inner .header-buttons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

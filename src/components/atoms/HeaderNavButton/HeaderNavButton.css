@@ -1,0 +1,17 @@
+.header-nav-button {
+  border: 0px solid var(--border-color);
+  background-color: var(--secondary-main-color);
+  color: var(--main-text-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header-nav-button:hover,
+.header-nav-button:focus-visible {
+  border-color: var(--border-highlight-color);
+  color: var(--title-text-color);
+  outline: none;
+}
