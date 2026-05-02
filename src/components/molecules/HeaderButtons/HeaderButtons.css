@@ -3,3 +3,11 @@
   align-items: center;
   gap: 5rem;
 }
+
+@media (max-width: 1140px) {
+  .header-buttons {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

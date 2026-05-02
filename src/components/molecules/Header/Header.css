@@ -21,3 +21,20 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media (max-width: 1140px) {
+  .header__inner {
+    padding: 1rem 1.25rem;
+    flex-wrap: wrap;
+    row-gap: 0.75rem;
+  }
+
+  .header__inner .header-buttons {
+    position: static;
+    left: auto;
+    transform: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
